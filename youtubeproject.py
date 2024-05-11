@@ -20,7 +20,6 @@ youtube=connect_api_key()
 # Function to retrieve channel details from YouTube
 def get_channal_info(channel_id):
         LIST_DATA=[]
-        
         request = youtube.channels().list(
             part="contentDetails,snippet,statistics",
             id=channel_id
