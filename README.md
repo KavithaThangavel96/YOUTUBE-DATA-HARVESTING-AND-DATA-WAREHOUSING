@@ -15,7 +15,6 @@
 * Streamlit
 * Plotly
 ## FEATURES OF APPLICATION
-## Retrive the channal informations:   
    * In the Streamlit application, users input the channel ID to trigger the retrieval of comprehensive details from the YouTube Data API.And by cliking 'submit' button the application presents an overview of the channel,videos,comments and playlist in dataframe format.
 ## Store data in database:
    * The collected YouTube data was transformed into pandas dataframes. Before that, a new database and tables were created using the MySQL connector. With the help of MySQL, the data was inserted into the respective tables. The database could be accessed and managed in the MySQL environment.
